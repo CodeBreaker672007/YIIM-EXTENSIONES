@@ -1,0 +1,328 @@
+<!DOCTYPE html5>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yiim Extensiones</title>
+
+  <!-- Google Fonts (TIPO DE LETRA, PEDIRLE A ANDY LOS TIPO DE LETRA AL TERMINAR EL ESQUELETO) -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (ICONOS, PREGUNTAR QUE ICONOS QUIEREN USAR Y DONDE) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css"><!--NO TOCAR, LE QUITA LOS ESTILOS, LAS MEDIDAS Y TODO LO QUE HACE QUE SE VEA BIEN A LA PAGINA-->
+    
+</head>
+
+<body>
+
+    <!-- HEADER LOGO -->
+    <header class="header-logo">
+        <h1>YIIM EXTENSIONES</h1>
+    </header>
+
+    <!-- NAVEGACIÓN STICKY SEPARADA -->
+    <nav class="header-nav" id="navMenu">
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul>
+            
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="https://wa.me/message/HEO7WRO2WUZZL1" class="btn-contacto">Contactanos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- fondo -->
+
+    <section class="fondo" id="inicio">
+
+    </section>
+
+    <!-- HISTORIA -->
+
+    <section id="historia" class="historia-section">
+        <div class="historia-container">
+            <!-- VIDEO LADO IZQUIERDO -->
+            <div class="historia-video">
+                <video controls>
+                    <source src="multimedia/motivacion.mp4">
+                </video>
+            </div>
+
+            <!-- TEXTO LADO DERECHO -->
+            <div class="historia-texto">
+                <div class="letra-secundaria">
+                    <h1>Fabrica en Lima, Perú</h1>
+                </div>
+                <h2>Nuestra Historia</h2>
+
+                <p>
+                    Yiim Extensiones es una fábrica de extensiones de cabello de ciclo completo
+                    ubicada en Lima Perú, comprometida con ofrecer las mejores extensiones.
+                    Desde la selección del cabello donante de mayor calidad hasta el uso de
+                    tecnologías propias, nuestra fábrica garantiza que cada mechón cumpla con
+                    nuestros rigurosos estándares de calidad. Atendemos a clientes en todo el
+                    mundo, incluyendo Norteamérica, Sudamérica, Europa, Australia y Oriente
+                    Medio. Tanto si eres propietario de un salón de belleza como si eres un
+                    apasionado de la belleza, Yiim Extensiones es tu socio de confianza en
+                    soluciones capilares de primera calidad.
+                </p>
+                <a class="btn-no-interactuable">Conócenos</a>
+                <div class="redes-iconos">
+                <a href="https://www.tiktok.com/@yiim_extensiones"><img src="img/tiktoklogo.png" alt="logo"></a>
+                <a href="https://www.instagram.com/yiim_extensiones/"><img src="img/instagramlogo.png"alt="logo"></a>
+                <a href="https://web.facebook.com/yiim.extensiones001"><img src="img/facebooklogo.png" alt="logo"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCCION -->
+
+   <section id="produccion" class="produccion-section">
+    <div class="letra-secundaria">
+    <h1>Nuestros</h1>
+</div>
+    <h2>PRODUCTOS</h2>
+
+    <!--
+        TARJETA DE PRODUCTO REUTILIZABLE
+        ---------------------------------
+        Para agregar un producto nuevo, copia uno de los bloques
+        ".card-producto" de aquí abajo (completo, desde el <div
+        class="card-producto"> hasta su </div> de cierre), pégalo
+        dentro de este mismo "contenedor-planes" y solo cambia:
+          1) la imagen (src y alt)
+          2) el título (card-producto__titulo)
+          3) el texto (card-producto__texto)
+        El diseño (imagen redondeada, título dorado y botón negro)
+        se aplica solo, sin tocar el CSS.---IMPORTANTE
+    -->
+    <div class="contenedor-planes" id="productos">
+
+        <div class="card-producto">
+            <div class="card-producto__imagen">
+                <img src="img/imagen degradado.png" alt="Cabello Natural">
+            </div>
+            <h3 class="card-producto__titulo">Cabello Natural</h3>
+            <p class="card-producto__texto">
+                Cambia tu look en segundos.
+                Perfecto para cualquier estilo de aplicación.
+            </p>
+            <button class="card-producto__btn">Ver Más</button>
+        </div>
+
+        <div class="card-producto">
+            <div class="card-producto__imagen">
+                <img src="img/imagen degradado.png" alt="Cabello Natural">
+            </div>
+            <h3 class="card-producto__titulo">Cabello Pintado</h3>
+            <p class="card-producto__texto">
+                Cambia tu look en segundos.
+                Perfecto para cualquier estilo de aplicación.
+            </p>
+            <button class="card-producto__btn">Ver Más</button>
+        </div>
+
+        <div class="card-producto">
+            <div class="card-producto__imagen">
+                <img src="img/imagen degradado.png" alt="Cabello Natural">
+            </div>
+            <h3 class="card-producto__titulo">Cabello Decolorado</h3>
+            <p class="card-producto__texto">
+                Cambia tu look en segundos.
+                Perfecto para cualquier estilo de aplicación.
+            </p>
+            <button class="card-producto__btn">Ver Más</button>
+        </div>
+
+        <div class="card-producto">
+            <div class="card-producto__imagen">
+                <img src="img/cabello-natural-lacio.png" alt="Cabello Natural">
+            </div>
+            <h3 class="card-producto__titulo">Cabello Balayage</h3>
+            <p class="card-producto__texto">
+                Cambia tu look en segundos.
+                Perfecto para cualquier estilo de aplicación.
+            </p>
+            <button class="card-producto__btn">Ver Más</button>
+        </div>
+
+        <div class="card-producto">
+            <div class="card-producto__imagen">
+                <img src="img/imagen degradado black.png" alt="Cabello Pintado">
+            </div>
+            <h3 class="card-producto__titulo">Cabello Ondulado</h3>
+            <p class="card-producto__texto">
+                Volumen y longitud al instante.
+                Fáciles de colorar y remover.
+            </p>
+            <button class="card-producto__btn">Ver Más</button>
+        </div>
+
+        <div class="card-producto">
+            <div class="card-producto__imagen">
+                <img src="img/cabello lacio.jpeg" alt="Cabello lacio">
+            </div>
+            <h3 class="card-producto__titulo">Cabello Lacio</h3>
+            <p class="card-producto__texto">
+                Ligero y cómodo.
+                Ideal para una aplicación rápida.
+            </p>
+            <button class="card-producto__btn">Ver Más</button>
+        </div>
+
+    </div>
+</section>
+ <!-- Checkbox oculto para controlar el menú -->
+  <input type="checkbox" id="toggleMenu" hidden>
+
+  <!-- Botón principal (label que activa el checkbox) -->
+  <label for="toggleMenu" class="contact-button">
+    CONTACTOS
+  </label>
+
+  <!-- Menú desplegable solo con WhatsApp -->
+  <div class="contact-menu">
+    <a href="https://wa.me/message/HEO7WRO2WUZZL1" target="_blank" class="menu-item whatsapp"><span class="tooltip">Lima</span><img src="img/logowasap.png" alt="logowasap"></a>
+    <a href="https://wa.me/message/HEO7WRO2WUZZL1" target="_blank" class="menu-item whatsapp"><span class="tooltip">Pucallpa</span><img src="img/logowasap.png" alt="logowasap"></a>
+</div>
+
+<section class="colecciones-destacadas">
+  <div class="container">
+    <h2 class="titulo-seccion">COLECCIONES DESTACADAS</h2>
+
+    <div class="grid-colecciones">
+      
+      <!-- Tarjeta 1 -->
+      <div class="tarjeta-coleccion">
+        <div class="imagen-contenedor">
+          <img src="tu-imagen-rizados.jpg" alt="Rizados">
+        </div>
+        <h3 class="titulo-tarjeta">RIZADOS</h3>
+        <p class="descripcion-tarjeta">
+          Cambia tu look en segundos. Perfectas para cualquier estilo de aplicación.
+        </p>
+      </div>
+
+      <!-- Tarjeta 2 -->
+      <div class="tarjeta-coleccion">
+        <div class="imagen-contenedor">
+          <img src="tu-imagen-cabello-pintado.jpg" alt="Cabello Pintado">
+        </div>
+        <h3 class="titulo-tarjeta">CABELLO PINTADO</h3>
+        <p class="descripcion-tarjeta">
+          Volumen y longitud al instante. Fáciles de colocar y remover.
+        </p>
+      </div>
+
+      <!-- Tarjeta 3 -->
+      <div class="tarjeta-coleccion">
+        <div class="imagen-contenedor">
+          <img src="tu-imagen-cabello-decolorado.jpg" alt="Cabello Decolorado">
+        </div>
+        <h3 class="titulo-tarjeta">CABELLO DECOLORADO</h3>
+        <p class="descripcion-tarjeta">
+          Ligeras, cómodas y discretas. Ideales para una aplicación rápida.
+        </p>
+      </div>
+
+      <!-- Tarjeta 4 -->
+      <div class="tarjeta-coleccion">
+        <div class="imagen-contenedor">
+          <img src="tu-imagen-raiz-difuminada.jpg" alt="D. Raíz Difuminada">
+        </div>
+        <h3 class="titulo-tarjeta">D. RAÍZ DIFUMINADA</h3>
+        <p class="descripcion-tarjeta">
+          Cambia completamente tu look al colocártelas.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="por-que-elegirnos">
+  <div class="container-elegirnos">
+    
+    <!-- Columna Izquierda: Texto y Puntos Clave -->
+    <div class="contenido-texto">
+      <h2 class="titulo-elegirnos">Por qué elegirnos</h2>
+
+      <div class="punto-clave">
+        <p><strong>Calidad:</strong> Cabello humano sin merma, ni rastros de procesos químicos, volumen de inicio a fin.</p>
+      </div>
+
+      <div class="punto-clave">
+        <p><strong>Precio:</strong> Manejamos los mejores precios del mercado actualmente, accesible para todo mundo.</p>
+      </div>
+
+      <div class="punto-clave">
+        <p><strong>Durabilidad:</strong> El producto puede durar más de 6 años con uso diario, manteniendo los respectivos cuidados señalados.</p>
+      </div>
+
+      <a href="#" class="btn-galeria">Ver galería de estilos</a>
+    </div>
+
+    <!-- Columna Derecha: Imagen -->
+    <div class="contenido-imagen">
+      <img src="tu-imagen-modelos.jpg" alt="Modelos con extensiones de cabello">
+    </div>
+
+  </div>
+</section>
+<footer class="footer-extensiones">
+  <div class="container-footer">
+    
+    <!-- Título / Marca principal del Footer -->
+    <h2 class="footer-logo">YIIM EXTENSIONES</h2>
+
+    <!-- Contenedor de Columnas -->
+    <div class="footer-columnas">
+      
+      <!-- Columna 1 -->
+      <div class="columna-footer">
+        <h3>Llamanos</h3>
+        <ul>
+          <li>Telf Lima: </li>
+          <li>Telf Pucallpa: </li>
+        </ul>
+      </div>
+
+      <!-- Columna 2 -->
+      <div class="columna-footer">
+        <h3>Nuestras Redes</h3>
+        <ul>
+          <li>TikTok: </li>
+          <li>Facebook: </li>
+          <li>Instagram: </li>
+        </ul>
+      </div>
+
+      <!-- Columna 3 -->
+      <div class="columna-footer">
+        <h3>Dirección</h3>
+        <ul>
+          <li>Lima </li>
+          <li>Pucallpa </li>
+        </ul>
+      </div>
+
+      <!-- Columna 4 -->
+      <div class="columna-footer">
+        <h3>Horario de Atención</h3>
+        <ul>
+          <li>Lunes a Viernes</li>
+          <li>9:00 AM - 5:00 PM</li>
+          <li>Sabado: 9:00 AM- 1:00 PM</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
